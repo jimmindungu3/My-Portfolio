@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>James Portfolio | Web eveloper</title>
+  </head>
+  <body class="container mx-auto">
+    <nav>
+      <div class="flex justify-between items-center">
+        <img src="../images/avatar.svg" alt="avatar" style="height: 70px;" class="mt-2 cursor-pointer"/>
+        <div>
+          <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="#Hero">Home</a>
+          <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="#About">About</a>
+          <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="#Projects">Projects</a>
+          <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="#">Skills</a>
+          <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="#">Contact</a>
+        </div>
+        <div>
+          <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://github.com/jimmindungu3" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://www.linkedin.com/in/jamesndunguthedev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://www.youtube.com/@DevsToday" target="_blank" ><i class="fa-brands fa-youtube"></i></a>
+          <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://x.com/jimthedev" target="_blank" ><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </nav>
+    <section id="Hero" class="flex justify-between items-center text-white">
+        <div>
+            <div class="hero-name text-4xl font-bold text-center">Hi. I'm James Ndung'u</div>
+            <div class="text-xl text-center mt-8">I am a Software Developer based in Nairobi Kenya
+            I'm passionate about building dynamic, interactive and responsive web applications that solve real world problems </div>
+        </div>
+        <img src="../images/home-main.svg" alt="developer svg" style="max-height: 850px;">
+    </section>
+    <section class="my-4">
+        <h1 id="About" class="mb-4 text-white text-center text-4xl font-bold underline">About Me</h1>
+        <div class="flex items-center text-center"><img src="../images/hero.png" alt="developer svg" style="max-height: 400px;">
+            <div class="text-white">
+                <p class="text-xl text-center mt-8">I'm a Full Stack Web Developer and a TVET Trainer at Thika TTI. </p>
+                <p class="text-xl text-center mt-8">I graduated from a Full Stack Bootcamp at Moringa School in June 2024, and have a BSC in Computer Security and Forensics from JOOUST.</p>
+                <p class="text-xl text-center mt-8">On a non-technical note, I enjoy riding and cycling which is I find threaputic after long days and nights behind a screen!</p>                
+                <p class="text-xl text-center mt-8">I'm happiest when I'm creating, learning, exploring and thinking about how to make things better.</p>
+            </div>
+        </div>
+    </section>
+    <section class="mt-14">
+        <h1 id="Projects" class="mb-20 mt-5 text-white text-center text-4xl font-bold underline">My Projects</h1>
+        <div class="flex flex-wrap justify-center mt-8 gap-8">
+
+            <!-- Store -->
+            <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden w-80"> 
+                <img src="../images/online_store.png" alt="Card Image" class="w-full h-48 object-cover p-2  ">
+                <div class="p-4">
+                  <h2 class="text-xl font-semibold text-white">James Store</h2>
+                  <p class="text-white mt-2">A fully fledged demo for an online store. The app is fully responsive with frontend done in react and deployed on Vercel. Backend done in nodeJs and deployed on Render. DB on Mongo Atlas </p>
+                  <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://github.com/jimmindungu3/james-store-with-node-backend" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://james-store-with-node-backend.vercel.app/" target="_blank"><i class="fas fa-rocket"></i></a>
+                </div>
+            </div>
+
+            <!-- Bookist -->
+            <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden w-80"> 
+                <img src="../images/bookist.png" alt="Card Image" class="w-full h-48 object-cover p-2  ">
+                <div class="p-4">
+                  <h2 class="text-xl font-semibold text-white">Bookist</h2>
+                  <p class="text-white mt-2">An app where people can just visit and book for appointments or events. Event organisers get to create, edit and delete events. Once event is created, users can begin booking for it.</p>
+                  <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://github.com/jimmindungu3/bookist" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://bookist-seven.vercel.app/" target="_blank"><i class="fas fa-rocket"></i></a>
+                </div>
+            </div>
+
+            <!-- FleetSense -->
+            <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden w-80"> 
+              <img src="../images/fleetsense.png" alt="Card Image" class="w-full h-48 object-cover p-2  ">
+              <div class="p-4">
+                <h2 class="text-xl font-semibold text-white">FleetSense</h2>
+                <p class="text-white mt-2">A web application where users can register their fleet with and monitor the daily operations of the fleet</p>
+                <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://github.com/Elikibs/Fleet-Management-System" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <!-- <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="#"><i class="fas fa-rocket"></i></a> -->
+              </div>
+          </div>
+
+            <!-- Class manager -->
+            <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden w-80"> 
+                <img src="../images/class_manager.png" alt="Card Image" class="w-full h-48 object-cover p-2  ">
+                <div class="p-4">
+                  <h2 class="text-xl font-semibold text-white">Class Manager</h2>
+                  <p class="text-white mt-2">An app where a teacher can register students, enter their marks and rank them by their total marks</p>
+                  <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="https://github.com/jimmindungu3/class-manager" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <!-- <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="#"><i class="fas fa-rocket"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+body {
+  background-image: url(../images/night_sky.jpg);
+  background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the background image */
+}
+
+.nav-link,
+.hero-name,
+#About,
+#Projects {
+  color: #b969c6;
+}
