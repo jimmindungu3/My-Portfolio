@@ -9,6 +9,16 @@ body {
 .nav-link,
 .hero-name,
 #About,
-#Projects {
+#Projects,
+#Skills,
+#Contact {
   color: #b969c6;
+}
+
+#submit-button {
+  background-color: #74347e;
+}
+
+#submit-button:hover{
+  background-color: #9b58a5;
 }
