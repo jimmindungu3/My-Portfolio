@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -18,39 +18,6 @@
   <body>
     <nav>
       <div class="mt-4 container mx-auto">
-        <!-- <img
-          src="../images/avatar.svg"
-          alt="avatar"
-          style="height: 70px"
-          class="mt-2 cursor-pointer"
-        /> -->
-        <!-- <div>
-          <a
-            class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
-            href="#Hero"
-            >Home</a
-          >
-          <a
-            class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
-            href="#About"
-            >About</a
-          >
-          <a
-            class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
-            href="#Projects"
-            >Projects</a
-          >
-          <a
-            class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
-            href="#Skills"
-            >Skills</a
-          >
-          <a
-            class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
-            href="#Contact"
-            >Contact</a
-          >
-        </div> -->
         <div class="flex justify-center">
           <a
             class="nav-link nav-link mx-2 font-semibold text-2xl hover:text-white"
@@ -81,58 +48,65 @@
     </nav>
     <section
       id="Hero"
-      class="mb-20 flex justify-between items-center text-white container mx-auto"
+      class="mb-20 flex flex-col lg:flex-row justify-center items-center text-white container mx-auto min-h-screen"
     >
-      <div>
-        <div class="hero-name text-4xl font-bold text-center">
+      <div class="text-center lg:text-left lg:w-1/2">
+        <div class="hero-name text-3xl lg:text-4xl font-bold">
           Hi. I'm James Ndung'u
         </div>
-        <div class="text-xl text-center mt-8">
-          I am a Software Developer based in Nairobi Kenya I'm passionate about
-          building dynamic, interactive and responsive web applications that
-          solve real world problems
+        <div class="p-4 text-lg lg:text-xl mt-4 lg:mt-8">
+          I am a Software Developer based in Nairobi, Kenya. I'm passionate
+          about building dynamic, interactive, and responsive web applications
+          that solve real-world problems.
         </div>
       </div>
       <img
         src="../images/home-main.svg"
         alt="developer svg"
+        class="max-w-full lg:max-w-none lg:w-1/2 mt-8 lg:mt-0"
         style="max-height: 850px"
       />
     </section>
+
     <section
+      id="About"
       class="min-h-screen flex flex-col justify-center items-center mb-20 container mx-auto"
     >
       <h1
-        id="About"
-        class="my-16 text-white text-center text-4xl font-bold underline"
+        id="about-me"
+        class="my-8 text-white text-center text-3xl lg:text-4xl font-bold underline"
       >
         About Me
       </h1>
-      <div class="flex items-center text-center">
+      <div
+        class="flex flex-col lg:flex-row items-center text-center lg:text-left"
+      >
         <img
           src="../images/hero.png"
           alt="developer svg"
+          class="max-w-full lg:max-w-none lg:w-1/3 mb-8 lg:mb-0"
           style="max-height: 400px"
         />
-        <div class="text-white">
-          <p class="text-xl text-center mt-4">
+        <div class="p-4 text-white lg:w-2/3 lg:pl-8">
+          <p class="text-lg lg:text-xl mt-4">
             I'm a Full Stack Web Developer and a TVET Trainer at Thika TTI.
           </p>
-          <p class="text-xl text-center mt-4">
+          <p class="text-lg lg:text-xl mt-4">
             I graduated from a Full Stack Bootcamp at Moringa School in June
-            2024, and have a BSC in Computer Security and Forensics from JOOUST.
+            2024 and have a BSc in Computer Security and Forensics.
           </p>
-          <p class="text-xl text-center mt-4">
-            On a non-technical note, I enjoy riding and cycling which is I find
-            threaputic after long days and nights behind a screen!
+          <p class="text-lg lg:text-xl mt-4">
+            On a non-technical note, I enjoy riding and cycling, which I find
+            therapeutic after long days and nights behind a screen!
           </p>
-          <p class="text-xl text-center mt-4">
-            I'm happiest when I'm creating, learning, exploring and thinking
+          <p class="text-lg lg:text-xl mt-4">
+            I'm happiest when I'm creating, learning, exploring, and thinking
             about how to make things better.
           </p>
         </div>
       </div>
     </section>
+
     <section
       class="min-h-screen justify-center items-center mb-20 container mx-auto"
     >
@@ -248,6 +222,7 @@
         </div>
       </div>
     </section>
+
     <section class="min-h-screen justify-center items-center container mx-auto">
       <h1
         id="Skills"
@@ -255,73 +230,74 @@
       >
         Skills and Tools
       </h1>
-      <div class="flex flex-wrap justify-center mt-8 gap-8">
+      <div class="mx-4 flex flex-wrap justify-center mt-8 gap-8">
         <img
           src="./images/html.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="HTML Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/css.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="CSS Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/javascript.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="JavaScript Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/react.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="React Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/node_js.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="Node.js Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/express.jpg"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="Express.js Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/mongo_db.jpg"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="MongoDB Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/sql.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="SQL Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/python.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="Python Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
       </div>
-      <div class="flex flex-wrap justify-center mt-8 gap-8">
+      <div class="mx-4 flex flex-wrap justify-center mt-8 gap-8">
         <img
           src="./images/vscode.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="VSCode Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/npm.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="NPM Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
         <img
           src="./images/postman.webp"
-          alt="developer svg"
-          style="max-height: 200px"
+          alt="Postman Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
         />
       </div>
     </section>
+
     <section>
-      <div class="flex flex-col min-h-screen justify-center items-center">
+      <div class="mx-4 flex flex-col min-h-screen justify-center items-center">
         <h1
           id="Contact"
           class="mb-8 text-white text-center text-4xl font-bold underline"

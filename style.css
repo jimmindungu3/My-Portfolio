@@ -19,9 +19,9 @@ body::before {
 }
 
 #Contact,
-#About,
 #Projects,
 #Skills,
+#about-me,
 .nav-link,
 .hero-name {
   color: #b969c6;
