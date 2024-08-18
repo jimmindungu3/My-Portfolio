@@ -27,10 +27,12 @@ body::before {
   color: #b969c6;
 }
 
-#submit-button {
+#submit-button,
+#resume {
   background-color: #74347e;
 }
 
-#submit-button:hover {
+#submit-button:hover,
+#resume:hover {
   background-color: #9b58a5;
 }
