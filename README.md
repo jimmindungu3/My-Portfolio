@@ -1,1 +1,429 @@
-# portfolio
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>James Ndung'u | Web Developer</title>
+  </head>
+  <body>
+    <nav>
+      <div class="mt-4 container mx-auto">
+        <div class="flex justify-center">
+          <a
+            class="nav-link nav-link mx-2 font-semibold text-2xl hover:text-white"
+            href="https://github.com/jimmindungu3"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            class="nav-link nav-link mx-2 font-semibold text-2xl hover:text-white"
+            href="https://www.linkedin.com/in/jamesndunguthedev/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            class="nav-link nav-link mx-2 font-semibold text-2xl hover:text-white"
+            href="https://www.youtube.com/@DevsToday"
+            target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+          <a
+            class="nav-link nav-link mx-2 font-semibold text-2xl hover:text-white"
+            href="https://x.com/jimthedev"
+            target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <section
+      id="Hero"
+      class="mb-20 flex flex-col lg:flex-row justify-center items-center text-white container mx-auto min-h-screen"
+    >
+      <div class="text-center lg:text-left lg:w-1/2">
+        <div class="hero-name text-3xl lg:text-4xl font-bold">
+          Hi. I'm James Ndung'u
+        </div>
+        <div class="text-lg lg:text-xl my-8 lg:my-8">
+          I am a Software Developer based in Nairobi, Kenya. I'm passionate
+          about building dynamic, interactive, and responsive web applications
+          that solve real-world problems.
+        </div>
+        <div">
+        <a href="assets/Dev James.pdf" target="_blank">
+          <button
+            type="button"
+            id="resume"
+            class="py-2 px-4 text-white text-lg font-semibold"
+          >
+            Resume
+          </button>
+        </a>
+      </div>
+      <img
+        src="assets/images/home-main.svg"
+        alt="developer svg"
+        class="max-w-full lg:max-w-none lg:w-1/2 mt-8 lg:mt-0"
+        style="max-height: 850px"
+      />
+    </section>
+
+    <section
+      id="About"
+      class="min-h-screen flex flex-col justify-center items-center mb-20 container mx-auto"
+    >
+      <h1
+        id="about-me"
+        class="my-8 text-white text-center text-3xl lg:text-4xl font-bold underline"
+      >
+        About Me
+      </h1>
+      <div
+        class="flex flex-col lg:flex-row items-center text-center lg:text-left"
+      >
+        <img
+          src="assets/images/hero.png"
+          alt="developer svg"
+          class="max-w-full lg:max-w-none lg:w-1/3 mb-8 lg:mb-0"
+          style="max-height: 400px"
+        />
+        <div class="p-4 text-white lg:w-2/3 lg:pl-8">
+          <p class="text-lg lg:text-xl mt-4">
+            I'm a Full Stack Web Developer and a TVET Trainer at Thika TTI.
+          </p>
+          <p class="text-lg lg:text-xl mt-4">
+            I graduated from a Full Stack Bootcamp at Moringa School in June
+            2024 and have a BSc in Computer Security and Forensics.
+          </p>
+          <p class="text-lg lg:text-xl mt-4">
+            On a non-technical note, I enjoy riding and cycling, which I find
+            therapeutic after long days and nights behind a screen!
+          </p>
+          <p class="text-lg lg:text-xl mt-4">
+            I'm happiest when I'm creating, learning, exploring, and thinking
+            about how to make things better.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="min-h-screen justify-center items-center mb-20 container mx-auto"
+    >
+      <h1
+        id="Projects"
+        class="my-16 text-white text-center text-4xl font-bold underline"
+      >
+        My Projects
+      </h1>
+      <div class="flex flex-wrap justify-center mt-8 gap-8">
+        <!-- Store -->
+        <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden w-80">
+          <img
+            src="assets/images/online_store.png"
+            alt="Card Image"
+            class="w-full h-48 object-cover p-2"
+          />
+          <div class="p-4">
+            <h2 class="text-xl font-semibold text-white">James Store</h2>
+            <p class="text-white mt-2">
+              A fully fledged demo for an online store. The app is fully
+              responsive with frontend done in react and deployed on Vercel.
+              Backend done in nodeJs and deployed on Render. DB on Mongo Atlas
+            </p>
+            <a
+              class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
+              href="https://github.com/jimmindungu3/james-store-with-node-backend"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
+              href="https://james-store-with-node-backend.vercel.app/"
+              target="_blank"
+              ><i class="fas fa-rocket"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- Bookist -->
+        <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden w-80">
+          <img
+            src="assets/images/bookist.png"
+            alt="Card Image"
+            class="w-full h-48 object-cover p-2"
+          />
+          <div class="p-4">
+            <h2 class="text-xl font-semibold text-white">Bookist</h2>
+            <p class="text-white mt-2">
+              An app where people can just visit and book for appointments or
+              events. Event organisers get to create, edit and delete events.
+              Once event is created, users can begin booking for it.
+            </p>
+            <a
+              class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
+              href="https://github.com/jimmindungu3/bookist"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
+              href="https://bookist-seven.vercel.app/"
+              target="_blank"
+              ><i class="fas fa-rocket"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- FleetSense -->
+        <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden w-80">
+          <img
+            src="assets/images/fleetsense.png"
+            alt="Card Image"
+            class="w-full h-48 object-cover p-2"
+          />
+          <div class="p-4">
+            <h2 class="text-xl font-semibold text-white">FleetSense</h2>
+            <p class="text-white mt-2">
+              A web application where users can register their fleet with and
+              monitor the daily operations of the fleet
+            </p>
+            <a
+              class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
+              href="https://github.com/Elikibs/Fleet-Management-System"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- Class manager -->
+        <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden w-80">
+          <img
+            src="assets/images/class_manager.png"
+            alt="Card Image"
+            class="w-full h-48 object-cover p-2"
+          />
+          <div class="p-4">
+            <h2 class="text-xl font-semibold text-white">Class Manager</h2>
+            <p class="text-white mt-2">
+              An app where a teacher can register students, enter their marks
+              and rank them by their total marks
+            </p>
+            <a
+              class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white"
+              href="https://github.com/jimmindungu3/class-manager"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <!-- <a class="nav-link nav-link mx-2 font-semibold text-xl hover:text-white" href="#"><i class="fas fa-rocket"></i></a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="min-h-screen justify-center items-center container mx-auto">
+      <h1
+        id="Skills"
+        class="my-16 text-white text-center text-4xl font-bold underline"
+      >
+        Skills and Tools
+      </h1>
+      <div class="mx-4 flex flex-wrap justify-center mt-8 gap-8">
+        <img
+          src="assets/images/html.svg"
+          alt="HTML Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/css.svg"
+          alt="CSS Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+
+        <img
+          src="assets/images/javascript.svg"
+          alt="JavaScript Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/tailwind.svg"
+          alt="tailwindcss Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/react.svg"
+          alt="React Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/node.svg"
+          alt="Node.js Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/express.png"
+          alt="Express.js Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/mongo.svg"
+          alt="MongoDB Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/mongoose.js.svg"
+          alt="Mongoose Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/sql.svg"
+          alt="SQL Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/python.svg"
+          alt="Python Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+      </div>
+      <div class="mx-4 flex flex-wrap justify-center mt-8 gap-8">
+        <img
+          src="assets/images/vscode.svg"
+          alt="VSCode Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/npm.svg"
+          alt="NPM Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/postman.svg"
+          alt="Postman Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+        <img
+          src="assets/images/git.svg"
+          alt="Postman Logo"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        /><img
+          src="assets/images/GitHub.svg"
+          alt="GitHub"
+          class="w-24 sm:w-32 md:w-40 lg:w-48 xl:w-56"
+        />
+      </div>
+    </section>
+
+    <section>
+      <div class="mx-4 flex flex-col min-h-screen justify-center items-center">
+        <h1
+          id="Contact"
+          class="mb-8 text-white text-center text-4xl font-bold underline"
+        >
+          Contact Me
+        </h1>
+        <form
+          action="https://formspree.io/f/xdorvgwg"
+          method="POST"
+          class="bg-gray-900 opacity-80 p-8 rounded-lg shadow-lg w-full max-w-4xl"
+        >
+          <div class="mb-4">
+            <label
+              for="name"
+              class="block text-white text-xl font-semibold mb-2"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full p-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+          <div class="mb-4">
+            <label
+              for="email"
+              class="block text-white text-xl font-semibold mb-2"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full p-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            />
+          </div>
+          <div class="mb-4">
+            <label
+              for="message"
+              class="block text-white text-xl font-semibold mb-2"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              class="w-full p-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              required
+            ></textarea>
+          </div>
+          <div class="flex justify-center">
+            <button
+              type="submit"
+              id="submit-button"
+              class="text-white font-semibold py-2 px-4 rounded-md"
+            >
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer class="bg-gray-900 opacity-80 text-white py-6 mt-20">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="text-center md:text-left mb-4 md:mb-0">
+          <p>&copy; 2024 James Ndung'u. All Rights Reserved.</p>
+        </div>
+        <div class="flex justify-center md:justify-end space-x-4">
+          <a
+            href="https://github.com/jimmindungu3"
+            target="_blank"
+            class="hover:text-blue-500"
+            ><i class="fa-brands fa-github fa-lg"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/jamesndunguthedev/"
+            target="_blank"
+            class="hover:text-blue-500"
+            ><i class="fa-brands fa-linkedin fa-lg"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/@DevsToday"
+            target="_blank"
+            class="hover:text-blue-500"
+            ><i class="fa-brands fa-youtube fa-lg"></i
+          ></a>
+          <a
+            href="https://x.com/jimthedev"
+            target="_blank"
+            class="hover:text-blue-500"
+            ><i class="fa-brands fa-x-twitter fa-lg"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
